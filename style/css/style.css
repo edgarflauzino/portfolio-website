@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Bitter&display=swap");
+
+html {
+    font-size: 16px;
+    margin: 1rem 12rem 0;
+    background-color:beige;
+}
+
+body {
+    font-family: "Open Sans", "Times New o", sans-serif;
+}
+
+h1 {
+    font-family: Bitter;
+    padding: 5px;
+    border: 2px black solid;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 1rem;
+    margin-bottom: 1rem;
+}
+
+#menu {
+    display: inline-flex;
+    list-style: none;
+    font-weight: 600;
+}
+
+#menu li {
+    margin: 1rem 0 1rem 1rem;
+    cursor: pointer;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.about-me-container {
+    display: inline-flex;
+    margin: 2rem 0;
+}
+
+.about-me-text-container {
+    padding-right: 2rem;
+    text-align: justify;
+    color: #323232;
+}
+
+h2 {
+    margin: 0;
+}
+
+#my-photo {
+    height: 100%;
+    border-radius: 1rem;
+    border: 1px #323232 solid;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.skills-container {
+    margin: 2rem 0;
+}
+
+.skills {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
